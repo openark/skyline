@@ -23,6 +23,8 @@ Read the details in the [wiki](https://github.com/etsy/skyline/wiki).
 
 2. Install numpy, scipy, pandas, patsy, statsmodels, msgpack_python in that
 order.
+    
+    sudo yum install -y gcc hiredis.x86_64 hiredis-devel.x86_64 python-redis.noarch redis.x86_64 numpy scipy pandas patsy statsmodels python-msgpack.x86_64
 
 2. You may have trouble with SciPy. If you're on a Mac, try:
 
